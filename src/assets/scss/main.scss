@@ -2,10 +2,5 @@
 @use "partials/variables" as *;
 @use "partials/mixins" as *;
 
-main {
-    color: $main-color;
-}
-
-p {
-    @include main-coloring;
-}
+// Import all of Bootstrap's CSS
+@import "bootstrap/scss/bootstrap";
